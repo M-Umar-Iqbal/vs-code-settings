@@ -1,0 +1,232 @@
+{
+  "editor.matchBrackets": "never",
+  "json.schemas": [],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "editor.findMatchBorder": "#ffff33",
+    "debugConsole.infoForeground": "#1012D6",
+    "debugConsole.errorForeground": "#C2134E",
+    "debugConsole.sourceForeground": "#15AD5D",
+    "debugConsole.warningForeground": "#E0C23D",
+    "activityBarBadge.background": "#27C887",
+    "activityBar.activeBorder": "#27C887",
+    "activityBar.background": "#0F1B27",
+    "activityBarBadge.foreground": "#000000",
+    "activityBar.activeBackground": "#021B3D",
+    "editor.background": "#16212F",
+    "editorWidget.background": "#0A121A",
+    "editorWidget.border": "#a2b5dd",
+    "editorError.foreground": "#f70000",
+    "editorWarning.foreground": "#ffff33",
+    "editorInfo.background": "#ffffff00",
+    "editor.wordWrap": "wordWrapColumn",
+    "editorLineNumber.foreground": "#727E96",
+    "editorLineNumber.activeForeground": "#DE3163",
+    "editorCursor.foreground": "#fff",
+    "tab.activeBorder": "#182747",
+    "tab.hoverBackground": "#3D4894",
+    "tab.hoverForeground": "#FFFFFF",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.activeBackground": "#021B3D",
+    "debugIcon.restartForeground": "#1be21b",
+    "debugIcon.pauseForeground": "#ffffff",
+    "debugIcon.stopForeground": "#ff0000",
+    "statusBar.border": "#021B3D",
+    "sideBar.background": "#16212F",
+    "statusBar.background":"#021B3D",
+    "sideBar.foreground": "#727E96",
+    "terminal.background": "#282C35"
+  },
+  "editor.tokenColorCustomizations": {
+    "rules": {
+      "parameter": {
+        "foreground": "#b8b9bb",
+        "bold": false
+      },
+      "*.declaration": {
+        "bold": true,
+        "italic": true
+      },
+      "class": {
+        "foreground": "#DE3163"
+      },
+      "keyword.void": {
+        "foreground": "#435463"
+      }
+    },
+    "numbers": "#CD9F8A",
+    "comments": "#10574D",
+    "functions": {
+      "foreground": "#FA9039",
+      "fontStyle": "bold"
+    },
+    "keywords": {
+      "foreground": "#FA4839",
+      "fontStyle": "bold"
+    },
+    "textMateRules": [
+      {
+        "name": "[CUSTOM NAME]",
+        "scope": "string",
+        "settings": {
+          "foreground": "#27C887",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "workbench.colorTheme": "Bluloco Dark Italic",
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "vscode-icons",
+  "material-icon-theme.folders.color": "#3D4894",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 4,
+  "editor.minimap.size": "fit",
+  "editor.minimap.showSlider": "always",
+  "editor.fontWeight": "300",
+  "editor.fontFamily": "JetBrains Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace, meslolgs nf",
+  "editor.fontLigatures": true,
+  "tabout.disableByDefault": false,
+  "editor.minimap.autohide": true,
+  "editor.cursorWidth": 3,
+  "subtleBrackets.pairs": [
+    {
+      "open": "(",
+      "close": ")",
+      "parse": false,
+      "style": {
+        "borderWidth": 1,
+        "borderColor": "#e0e0e0"
+      }
+    },
+    {
+      "open": "[",
+      "close": "]",
+      "style": {
+        "borderColor": "#41AD0E",
+        "borderWidth": 1
+      }
+    },
+    {
+      "open": "{",
+      "close": "}",
+      "style": {
+        "borderColor": "#41AD0E",
+        "borderWidth": 1,
+        "borderStyle": "solid"
+      }
+    }
+  ],
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#32cd32",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "#",
+      "color": "#FFFFFF",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C319",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.guides.bracketPairs": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.verticalScrollbarSize": 20,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "dart.openDevTools": "flutter",
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "files.associations": {
+    "*.json": "dart"
+  },
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.confirmDelete": false,
+  "bloc.checkForUpdates": false,
+  "vsicons.presets.jsOfficial": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorBlinking": "phase",
+  "turboConsoleLog.logMessagePrefix": "📌",
+  "turboConsoleLog.logMessageSuffix": ": ",
+  "workbench.editorAssociations": {
+    "*.jar": "default"
+  },
+  "tatu-diff.getting_started": false,
+  "tatu-diff.theme": "Atom One Dark",
+  "diffEditor.maxComputationTime": 0,
+  "cSpell.userWords": [
+    "Umar",
+    "formik"
+  ],
+  "editor.fontSize": 13,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.editor.empty.hint": "hidden",
+  "liveServer.settings.donotVerifyTags": true,
+  "bootstrapIntelliSense.version": "Bootstrap v5.3",
+  "css.format.enable": false,
+  "reactSnippets.settings.prettierEnabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.fontFamily": "meslolgs nf",
+  "launch": {
+  
+    "configurations": [],
+    "compounds": []
+  },
+  "security.promptForLocalFileProtocolHandling": false,
+  "workbench.layoutControl.enabled": false
+}
